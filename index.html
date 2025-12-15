@@ -1,46 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Snake Game</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <title>Snake Game</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="game-wrapper">
-        
-        <div class="ui-panel">
-            <div class="stat-box">
-                <span class="label">SCORE</span>
-                <span class="value" id="score">00</span>
-            </div>
-            
-            <div class="stat-box">
-                <span class="label">HIGH SCORE</span>
-                <span class="value" id="highScore">00</span>
-            </div>
+<h1>Snake Game</h1>
+<div class="game-board"></div>
 
-            <div class="stat-box">
-                <span class="label">TIME</span>
-                <span class="value" id="timer">00:00</span>
-            </div>
-        </div>
-
-        <div class="canvas-container">
-            <canvas id="gameCanvas" width="400" height="400"></canvas>
-            <div id="overlay" class="overlay">
-                <h2>PRESS ANY KEY</h2>
-                <p>TO START</p>
-            </div>
-        </div>
-
-        <div class="controls-hint">
-            Use <span>Arrow Keys</span> to Move
-        </div>
-    </div>
-
-    <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
