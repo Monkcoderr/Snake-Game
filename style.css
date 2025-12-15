@@ -1,38 +1,118 @@
-* {
-    margin : 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html,body {
-height: 100%;
-width: 100%;
+:root {
+    --bg-color: #0f172a;       /* Deep dark blue/slate */
+    --panel-bg: #1e293b;       /* Slightly lighter slate */
+    --accent: #4ade80;         /* Neon Green */
+    --text-muted: #94a3b8;     /* Grey text */
+    --text-light: #f1f5f9;     /* White text */
+    --shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.5);
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  font-family: Arial;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg-color);
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-light);
+    user-select: none; /* Prevents highlighting text while playing */
 }
 
-.game-board {
-  width: 400px;
-  height: 400px;
-  display: grid;
-  grid-template-columns: repeat(20, 1fr);
-  grid-template-rows: repeat(20, 1fr);
-  border: 2px solid black;
+.game-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
-.cell {
-  border: 0.5px solid #eee;
+/* --- HUD Panel Styling --- */
+.ui-panel {
+    display: flex;
+    gap: 2rem;
+    background-color: var(--panel-bg);
+    padding: 15px 30px;
+    border-radius: 16px;
+    box-shadow: var(--shadow);
+    border: 1px solid rgba(255, 255, 255, 0.05);
 }
 
-.snake {
-  background-color: green;
+.stat-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 80px;
 }
 
-.food {
-  background-color: red;
+.label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    margin-bottom: 4px;
+}
+
+.value {
+    font-family: 'JetBrains Mono', monospace; /* Monospace keeps numbers aligned */
+    font-size: 1.5rem;
+    color: var(--accent);
+    text-shadow: 0 0 10px rgba(74, 222, 128, 0.3); /* Subtle neon glow */
+}
+
+/* --- Canvas Container & Overlay --- */
+.canvas-container {
+    position: relative; /* Needed for overlay positioning */
+    border-radius: 12px; /* Smooth corners for the game board */
+    padding: 10px;
+    background-color: var(--panel-bg);
+    box-shadow: var(--shadow);
+}
+
+canvas {
+    background-color: #000;
+    border-radius: 8px;
+    display: block;
+    /* Keeps the pixels sharp on high-res screens */
+    image-rendering: pixelated; 
+}
+
+/* The "Press Start" Overlay */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(15, 23, 42, 0.85); /* Semi-transparent dark overlay */
+    backdrop-filter: blur(4px); /* Blurs the game board behind it */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    /* You will toggle this class with JS: display: none when game runs */
+}
+
+.overlay h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: var(--accent);
+}
+
+.overlay p {
+    margin: 5px 0 0;
+    font-size: 0.9rem;
+    color: var(--text-muted);
+}
+
+/* --- Footer Text --- */
+.controls-hint {
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    opacity: 0.8;
+}
+
+.controls-hint span {
+    color: var(--accent);
+    font-weight: bold;
 }
