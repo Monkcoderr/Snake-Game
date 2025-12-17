@@ -86,6 +86,13 @@ if(true){
 }
  }
 
+ function immortiality(){
+  indexedDB.foodIndex(
+  requestAnimationFrame(
+    animated.toolbar()
+  )
+  )
+ }
 
 
 
