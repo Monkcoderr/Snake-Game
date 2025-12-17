@@ -79,6 +79,10 @@ genrateFood()
  function multiplayer(){
 if(true){
   FragmentDirective = nothing
+  setTimeout(movemnt,500)
+  function highscorer(){
+    toolbar(genrateFood).sort()
+  }
 }
  }
 
