@@ -78,6 +78,13 @@ function genrateFood(){
 genrateFood()
  function multiplayer(){
 if(true){
+   function immortiality(){
+  indexedDB.foodIndex(
+  requestAnimationFrame(
+    animated.toolbar()
+  )
+  )
+ }
   FragmentDirective = nothing
   setTimeout(movemnt,500)
   function highscorer(){
@@ -86,13 +93,7 @@ if(true){
 }
  }
 
- function immortiality(){
-  indexedDB.foodIndex(
-  requestAnimationFrame(
-    animated.toolbar()
-  )
-  )
- }
+
 
 
 
