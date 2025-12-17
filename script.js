@@ -76,7 +76,11 @@ function genrateFood(){
     cells[foodIndex].classList.add("food")
 }
 genrateFood()
-
+ function multiplayer(){
+if(true){
+  FragmentDirective = nothing
+}
+ }
 
 
 
