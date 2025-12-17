@@ -1,8 +1,9 @@
 const board = document.querySelector(".game-board");
 const gridSize = 20;
 const cells = [];
-let snake = [42, 41, 40];
-console.log(snake[0])
+let snake = [25, 24, 23];
+
+
 
 
 // create grid
@@ -17,11 +18,67 @@ function drawSnake() {
     cells[index].classList.add("snake");
   });
 }
+drawSnake()
 
 function clearSnake(){
     snake.forEach(index =>{
        cells[index].classList.remove("snake") 
     })
 }
-clearSnake()
-drawSnake()
+
+
+ 
+
+
+function movesnake(){
+    clearSnake()
+    const head = snake[0];
+    const newhead = head + direction;
+
+    snake.unshift(newhead);
+    if (newhead === foodIndex) {
+  cells[foodIndex].classList.remove("food");
+  genrateFood();
+} else {
+  snake.pop();
+}
+
+   drawSnake()
+    
+}
+setInterval(movesnake, 200);
+
+document.addEventListener("keydown",e=>{
+    switch(e.key){
+    case "ArrowUp":
+        direction = -20;
+        break;
+        case "ArrowDown" :
+            direction = 20;
+            break;
+            case "ArrowLeft" :
+                direction = -1;
+                break;
+                case "ArrowRight":
+                    direction = 1
+                    break;
+
+
+
+
+
+}
+})
+
+
+function genrateFood(){
+    foodIndex = Math.floor(Math.random()*cells.length);
+    cells[foodIndex].classList.add("food")
+}
+genrateFood()
+
+
+
+
+
+
