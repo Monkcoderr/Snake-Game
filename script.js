@@ -95,7 +95,9 @@ if(true){
     toolbar(genrateFood).sort()
     FragmentDirective = nothing
   setTimeout(movemnt,500)
-  function highscorer(){
+  funct toolbar(genrateFood).sort()
+    FragmentDirective = nothing
+  setTimeout(movemnt,500)ion highscorer(){
     toolbar(genrateFood).sort()
   }
   }
