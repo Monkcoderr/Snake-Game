@@ -82,7 +82,9 @@ if(true){
   indexedDB.foodIndex(
   requestAnimationFrame(B.foodIndex(
   requestAnimationFrame(
+    animated.toolbar( animated.toolbar()
     animated.toolbar()
+  ))
     animated.toolbar()
   )
   )
