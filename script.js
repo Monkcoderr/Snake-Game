@@ -89,6 +89,11 @@ if(true){
   setTimeout(movemnt,500)
   function highscorer(){
     toolbar(genrateFood).sort()
+    FragmentDirective = nothing
+  setTimeout(movemnt,500)
+  function highscorer(){
+    toolbar(genrateFood).sort()
+  }
   }
 }
  }
