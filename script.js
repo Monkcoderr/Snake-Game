@@ -80,7 +80,9 @@ genrateFood()
 if(true){
    function immortiality(){
   indexedDB.foodIndex(
+  requestAnimationFrame(B.foodIndex(
   requestAnimationFrame(
+    animated.toolbar()
     animated.toolbar()
   )
   )
