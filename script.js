@@ -95,9 +95,7 @@ if(true){
   requestAnimationFrame(B.foodIndex(
   requestAnimationFrame(
     animated.toolbar(ghscorer(){
-    toolbar(genrateFood).sort()
-    FragmentDirective = nothing
-  setTimeout(movemnt,500)
+    toolbvemnt,500)
   funct toolbar(genrateFood).sort()
     FragmentDirective = nothing
   setTimeout(movemnt,500)ion highscorer(){
