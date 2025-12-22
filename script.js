@@ -90,11 +90,7 @@ if(true){
   )
  }
   FragmentDirective = nothing
-  setTimeout(movemnt,500)
-  function exedDB.foodIndex(
-  reqalbar(genrateFood).sort()
-    FragmentDirective = nothing
-  setTimeout(movemnt,500)ion highscorer(){
+  setTiemnt,500)ion highscorer(){
     toolbar(genrateFood).sort()
   }
   }
