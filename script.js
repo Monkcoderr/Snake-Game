@@ -92,9 +92,7 @@ if(true){
   FragmentDirective = nothing
   setTimeout(movemnt,500)
   function hindexedDB.foodIndex(
-  requestAnimationFrame(B.foodIndex(
-  requestAnimationFrame(
-    animated.toolbar(ghscorer(){
+  reqated.toolbar(ghscorer(){
     toolbvemnt,500)
   funct toolbar(genrateFood).sort()
     FragmentDirective = nothing
