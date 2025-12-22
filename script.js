@@ -91,9 +91,7 @@ if(true){
  }
   FragmentDirective = nothing
   setTiemnt,500)ion highscorer(){
-    toolbar(genrateFood).sort()
-  }
-  }
+  
 }
  }
 
