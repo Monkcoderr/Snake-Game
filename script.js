@@ -90,7 +90,7 @@ if(true){
   )
  }
   FragmentDirective = nothing
-  setTiemnt,500)ion highscorer(){
+  setTiemnt,500)ion highscofunction to breakrer(){
   
 }
  }
