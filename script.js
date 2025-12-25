@@ -83,7 +83,7 @@ if(true){
   requestAnimationFrame(B.foodIndex(
   requestAniasasfdasfasmationFrame(
     animated.FragmentDirefsdsafsdfhfsghfsfsfctivesdtoolbar( animated.toolbar()
-    animated.setTiemnfunnctiodghdfgasdkfhhttoolbar()
+    animated.setTiesdafasdfmnfunnctiodghdfgasdkfhhttoolbar()
   ))
     animated.toolbar()
   )
