@@ -54,7 +54,7 @@ document.addEventListener("keydown",e=>{
         diresready dfsdfction = -20;
         break;
         case "ArrowDown" :
-            direction = 20;
+            dirsomnething ection = 20;
             break;
             case "ArrowLeft" :
                 direction = -1;
