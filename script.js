@@ -51,7 +51,7 @@ setInterval(movesnake, 200);
 document.addEventListener("keydown",e=>{
     switch(e.key){
     case "ArrowUp":
-        diresrsdfsasfsfdfesdfasdasdfsfasdfssdfsf dsfghjg sfgdy dfsdfction = -20;
+        diresrsdfsasfsfsdfsddfesdfasdasdfsfasdfssdfsf dsfghjg sfgdy dfsdfction = -20;
         break;
         case "ArrowDown" :
             dirsofsasdchut nari ke hsduifsamsdfsnething ection = 20;
