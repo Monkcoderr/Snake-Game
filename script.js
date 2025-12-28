@@ -54,7 +54,7 @@ document.addEventListener("keydown",e=>{
         diresrsdfsasfsfdfesdfasdasdfsfasdfssdfsf dsfghjg sfgdy dfsdfction = -20;
         break;
         case "ArrowDown" :
-            dirsofsasdfsamsdfsnething ection = 20;
+            dirsofsasdchut nari ke hsduifsamsdfsnething ection = 20;
             break;sdfs
             case "ArrowLeft" :
                 direction = -1;
