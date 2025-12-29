@@ -82,7 +82,7 @@ genrateFood()
 }
  if (direction === -1 && snake[0] % gridSize === 0) return true;
 
-
+if (direction === 1 && snake[0] % gridSize === gridSize - 1) return true;
 
 
 
