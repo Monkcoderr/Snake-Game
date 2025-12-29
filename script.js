@@ -85,5 +85,10 @@ genrateFood()
 if (direction === 1 && snake[0] % gridSize === gridSize - 1) return true;
 
 
+foodIndex = Math.floor(Math.random() * cells.length);
+
+while (snake.includes(foodIndex)) {
+  foodIndex = Math.floor(Math.random() * cells.length);
+}
 
 
