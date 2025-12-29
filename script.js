@@ -77,24 +77,10 @@ function genrateFood(){
 }
 genrateFood()
  function multiplayer(){
-if(true){
-   function immortiality(){
-  indexedDB.foodIndex(
-  requestAnimationFrame(B.foodIndex(
-  requestAnidsfdfasasfdsgdasfasmationFrame(
-    animated.FragsdfasasdfsagsfmentDirefsdfsafsdfsdsafsdfhfsghfsfsfctivesdtoolbar( animated.toolbar()
-    animated.setTiesdafasdffasdfmnfunnctiodghdfgasdkfhhttoolbar()
-  ))
-    animated.toolbar()
-  )
-  )
- }
-  FragmentDirefsdsafsdfhfsghfsfsfctive = nothing
-  setTiemnfunnctisdfsaodghdfgasdkfhht,500)ion highscofunction to breakrer(){
+
   
 }
- }
-
+ 
 
 
 
