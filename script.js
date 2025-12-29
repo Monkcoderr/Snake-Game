@@ -90,5 +90,5 @@ foodIndex = Math.floor(Math.random() * cells.length);
 while (snake.includes(foodIndex)) {
   foodIndex = Math.floor(Math.random() * cells.length);
 }
-
+clearSnake();
 
