@@ -91,4 +91,8 @@ while (snake.includes(foodIndex)) {
   foodIndex = Math.floor(Math.random() * cells.length);
 }
 clearSnake();
+if (isGameOver(newHead)) {
+    clearInterval(game);
+    alert("Game Over! Final Score: " + score);
+    return;
 
