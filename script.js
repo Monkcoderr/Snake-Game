@@ -80,7 +80,8 @@ genrateFood()
 
   
 }
- 
+ if (direction === -1 && snake[0] % gridSize === 0) return true;
+
 
 
 
