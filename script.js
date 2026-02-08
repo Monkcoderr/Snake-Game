@@ -97,7 +97,11 @@ if (isGameOver(newHead)) {
     return;
 
 
-
+    function genrateFood(){
+    foodIndex = Math.floor(Math.random()*cells.length);
+    cells[foodIndex].classList.add("food")    function genrateFood(){
+    foodIndex = Math.floor(Math.random()*cells.length);
+    cells[foodIndex].classList.add("food")
 }
 genrateFood()
  function multiplayer(){
