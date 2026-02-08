@@ -96,3 +96,13 @@ if (isGameOver(newHead)) {
     alert("Game Over! Final Score: " + score);
     return;
 
+
+    function genrateFood(){
+    foodIndex = Math.floor(Math.random()*cells.length);
+    cells[foodIndex].classList.add("food")
+}
+genrateFood()
+ function multiplayer(){
+
+  
+}
