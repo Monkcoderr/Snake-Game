@@ -105,6 +105,18 @@ genrateFood()
  function multiplayer(){
 
   
+genrateFood()
+ function multiplayer(){
+
+  
+}genrateFood()
+ function multiplayer(){
+
+  
+}genrateFood()
+ function multiplayer(){
+
+  
 }genrateFood()
  function multiplayer(){
 
