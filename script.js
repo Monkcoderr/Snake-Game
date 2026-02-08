@@ -106,6 +106,8 @@ if (isGameOver(newHead)) {
     foodIndex = Math.floor(Math.random()*cells.length);
     cells[foodIndex].classList.add("food")    function genrateFood(){
     foodIndex = Math.floor(Math.random()*cells.length);
+    cells[foodIndex].classList.add("food")    function genrateFood(){
+    foodIndex = Math.floor(Math.random()*cells.length);
     cells[foodIndex].classList.add("food")
  function multiplayer(){
 
