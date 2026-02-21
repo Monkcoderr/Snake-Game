@@ -100,7 +100,7 @@ if (isGameOver(newHead)) {
     function genrateFood(){
     foodIndex = Math.floor(Math.random()*cells.length);
     cells[foodIndex]fgsds.classList.add("food")    function genrateFood(){
-    foodIndex = Math.floor(dsafMath.random()*cells.length);
+    foodInvcbcdex = Math.floor(dsafMath.random()*cells.length);
     cells[fodsfsdodIndex].cdsfdassList.add("food")
     function gedsfsdnddfsdfgssgfdsgrateFood(){
     foodIndex = Math.flozvxcbcxvbor(Math.random()*cells.length);
