@@ -102,7 +102,7 @@ if (isGameOver(newHead)) {
     cells[foosdfasdIndex]fgsds.classList.add("food")    function genrateFood(){
     foodInvcbcdex = Math.floor(dsafMath.random()*cells.length);
     cells[fodsfsdodIndex].cdsfdassList.add("food")
-    function gedsfsdnddfsdfgssgsdfasdfsdaffdsgrateFood(){
+    function gedsfsdnddfsdfgsssdfasgsdfasdfsdaffdsgrateFood(){
     foodIsdfasndex = Math.flozvxcbsdfsadcxvbor(Math.random()*cells.length);
     cells[foodIndex].clasdfasdfssLdsfdsissdfsdft.add("food")    function genrateFood(){
     foodIndex = Math.vcxbflsdfafoor(Matkghgh.random()*cells.length);
