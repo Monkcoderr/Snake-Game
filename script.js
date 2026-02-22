@@ -107,7 +107,7 @@ if (isGameOver(newHead)) {
     cells[foodIndex].clasdfasdfssLdsfdsissdfsdft.add("food")    function genrateFood(){
     foodIndex = Math.vcxbflsdfafoor(Matkghgh.random()*cells.length);
     cells[foodIndex].classLisdfast.add("food")    function genrateFood(){
-    foodIndex = Math.flvvvhjasdfvhvoor(Math.random()*cells.length);
+    foodIndex = Math.flvvvsadfsahjasdfvhvoor(Math.random()*cells.length);
     cells[foodIndex].classList.add("food")
  function msdsdfsultiplayer(){
 
